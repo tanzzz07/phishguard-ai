@@ -20,7 +20,7 @@ from config import (MODEL_PATH, FLASK_HOST, FLASK_PORT, FLASK_DEBUG,
                     FEATURE_NAMES, STATIC_DIR)
 from utils.feature_extraction import extract_features, extract_features_array
 from utils.shap_explainer import explain, get_explanation_text
-from rag.vector_store import search as rag_search, build_index, _load_index, get_embedding
+##from rag.vector_store import search as rag_search, build_index, _load_index, get_embedding
 
 # ── Flask App Setup ──────────────────────────────────────────────────────────
 app = Flask(__name__, static_folder="static", template_folder="templates")
