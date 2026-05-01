@@ -1,0 +1,7 @@
+data/
+rag/
+*.pkl
+!model.pkl
+__pycache__/
+*.pyc
+.env
