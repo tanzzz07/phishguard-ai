@@ -33,7 +33,7 @@ def get_model():
 
 @app.route("/")
 def index():
-    return "PhishGuard AI is running"
+    return render_template("index.html")
 
 @app.route("/api/health", methods=["GET"])
 def health():
